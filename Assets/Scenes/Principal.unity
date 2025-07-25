@@ -818,6 +818,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gargoyle
       objectReference: {fileID: 0}
+    - target: {fileID: 4578824737258118702, guid: 2626ee9b4f851af4398b629e45acdeda,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 274735510}
     - target: {fileID: 5330250038462051886, guid: 2626ee9b4f851af4398b629e45acdeda,
         type: 3}
       propertyPath: m_Enabled
