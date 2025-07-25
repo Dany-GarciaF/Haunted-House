@@ -368,6 +368,14 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!81 &274735518
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274735509}
+  m_Enabled: 1
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,7 +386,6 @@ GameObject:
   m_Component:
   - component: {fileID: 330585546}
   - component: {fileID: 330585545}
-  - component: {fileID: 330585544}
   - component: {fileID: 330585547}
   - component: {fileID: 330585548}
   m_Layer: 0
@@ -388,14 +395,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &330585544
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330585543}
-  m_Enabled: 1
 --- !u!20 &330585545
 Camera:
   m_ObjectHideFlags: 0
@@ -2141,6 +2140,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 274735514}
+    - targetCorrespondingSourceObject: {fileID: 5941355447202295891, guid: c6b8ae772482f9d4daf65e66fdd6089e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 274735518}
   m_SourcePrefab: {fileID: 100100000, guid: c6b8ae772482f9d4daf65e66fdd6089e, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
