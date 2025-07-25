@@ -227,6 +227,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 274735510}
+    - target: {fileID: 4578824737258118702, guid: 2626ee9b4f851af4398b629e45acdeda,
+        type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 584219694}
     - target: {fileID: 5330250038462051886, guid: 2626ee9b4f851af4398b629e45acdeda,
         type: 3}
       propertyPath: m_Enabled
@@ -789,6 +794,7 @@ GameObject:
   m_Component:
   - component: {fileID: 584219693}
   - component: {fileID: 584219692}
+  - component: {fileID: 584219694}
   m_Layer: 0
   m_Name: GameEnding
   m_TagString: Untagged
@@ -832,6 +838,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &584219694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584219691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8b0cfe4a942aba4d96aef36e6bae1ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeDuration: 1
+  displayImageDuration: 1
+  player: {fileID: 274735509}
+  uiDocument: {fileID: 1189816533}
 --- !u!1 &717034023
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,6 +1263,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 274735510}
+    - target: {fileID: 4578824737258118702, guid: 2626ee9b4f851af4398b629e45acdeda,
+        type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 584219694}
     - target: {fileID: 5330250038462051886, guid: 2626ee9b4f851af4398b629e45acdeda,
         type: 3}
       propertyPath: m_Enabled
@@ -1467,6 +1494,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 274735510}
+    - target: {fileID: 4578824737258118702, guid: 2626ee9b4f851af4398b629e45acdeda,
+        type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 584219694}
     - target: {fileID: 5330250038462051886, guid: 2626ee9b4f851af4398b629e45acdeda,
         type: 3}
       propertyPath: m_Enabled
@@ -1605,6 +1637,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 274735510}
+    - target: {fileID: 7092233734150080149, guid: d32cffd63d1cc04409cdcaad999ab48f,
+        type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 584219694}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
