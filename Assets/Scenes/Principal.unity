@@ -854,6 +854,8 @@ MonoBehaviour:
   displayImageDuration: 1
   player: {fileID: 274735509}
   uiDocument: {fileID: 1189816533}
+  exitAudio: {fileID: 1760221465}
+  caughtAudio: {fileID: 843748067}
 --- !u!1 &717034023
 GameObject:
   m_ObjectHideFlags: 0
@@ -1294,7 +1296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1454680718}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
